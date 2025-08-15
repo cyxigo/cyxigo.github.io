@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #1b1b1b;
     color: white;
     font-family: "Courier New", Courier, monospace;
 }
@@ -15,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #009b6f;
 }
 
 li {
@@ -34,5 +34,11 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #007151;
+}
+
+img {
+    max-width: 15%;
+    max-height: auto;
+    margin-top: 1vi;
 }
