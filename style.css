@@ -2,12 +2,8 @@ body {
     background-color: #1b1b1b;
     color: white;
     font-family: "Courier New", Courier, monospace;
-}
-
-ul {
-    list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 ul {
@@ -16,10 +12,21 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #009b6f;
+    border-radius: 15px;
+    user-select: none;
+    display: flex;
+    align-items: center;
 }
 
 li {
-    float: left;
+    display: flex;
+    align-items: center;
+}
+
+li h2 {
+    margin: 0;
+    padding: 14px 16px;
+    color: white;
 }
 
 a {
@@ -27,22 +34,34 @@ a {
 }
 
 li a {
-    display: block;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    padding: 14px 16px;
+    display: block;
 }
 
 li a:hover {
     background-color: #007151;
+    border-radius: 10px;
 }
 
 img {
     max-width: 15%;
-    max-height: auto;
-    margin-top: 1vi;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
-h4 {
-    color: #303030;
+footer {
+    margin-top: 10px;
+    padding: 10px;
+    color: #888;
+}
+
+.content {
+    display: inline-block;
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
 }
