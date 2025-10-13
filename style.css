@@ -15,6 +15,7 @@ ul {
     user-select: none;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 li {
