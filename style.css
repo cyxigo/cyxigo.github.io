@@ -1,5 +1,5 @@
 body {
-    background-color: #1b1b1b;
+    background-color: #bcbcbc;
     color: white;
     font-family: "Courier New", Courier, monospace;
     margin: 0;
@@ -11,8 +11,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #009b6f;
-    border-radius: 15px;
+    background-color: #767676;
     user-select: none;
     display: flex;
     align-items: center;
@@ -31,37 +30,126 @@ li h2 {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 li a {
     text-align: center;
-    text-decoration: none;
     padding: 14px 16px;
     display: block;
 }
 
 li a:hover {
-    background-color: #007151;
-    border-radius: 10px;
+    text-decoration: underline;
 }
 
 img {
-    max-width: 15%;
+    max-width: 125px;
     height: auto;
     margin-top: 20px;
     border-radius: 10px;
+    user-select: none;
+}
+
+.img1 {
+    margin-top: 100px;
+    animation: jump 0.5s infinite;
+}
+
+.img2 {
+    margin-top: 100px;
+    animation: jump 0.5s infinite;
+    animation-delay: 0.2s;
+}
+
+.img3 {
+    margin-top: 100px;
+    animation: jump 0.5s infinite;
+    animation-delay: 0.4s;
+}
+
+@keyframes jump {
+    0% {
+        content: url("res/cyxigo.png");
+        transform: translateY(0);
+    }
+
+    50% {
+        content: url("res/cute.png");
+        transform: translateY(-50px);
+    }
+
+    100% {
+        content: url("res/cyxigo.png");
+        transform: translateY(0);
+    }
+}
+
+.img4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    animation: flip 1s infinite;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.img5 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    animation: tremble 0.1s infinite;
+}
+
+@keyframes tremble {
+    0% {
+        transform: translate(2px, -2px);
+    }
+
+    25% {
+        transform: translate(-2px, 2px);
+    }
+
+    50% {
+        transform: translate(-2px, -2px);
+    }
+
+    75% {
+        transform: translate(2px, 2px);
+    }
+
+    100% {
+        transform: translate(2px, -2px);
+    }
+}
+
+.social {
+    transition: 0.3s ease-in-out;
+}
+
+.social:hover {
+    color: #000000;
 }
 
 footer {
     margin-top: 10px;
     padding: 10px;
-    color: #888;
+    color: #000000;
 }
 
 .content {
     display: inline-block;
-    background-color: #333333;
+    background-color: #afafaf;
     padding: 15px;
-    border-radius: 15px;
     margin-top: 10px;
 }
