@@ -34,14 +34,14 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 li a {
     text-align: center;
     padding: 14px 16px;
     display: block;
-}
-
-li a:hover {
-    text-decoration: underline;
 }
 
 img {
