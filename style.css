@@ -34,7 +34,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:not(.social):hover {
     text-decoration: underline;
 }
 
