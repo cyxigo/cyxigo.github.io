@@ -1,5 +1,5 @@
 function why() {
-  messages = [
+  const messages = [
     "Why would you do that.",
     "Why.",
     "Hey, is clicking on random cats okay?",
@@ -22,12 +22,12 @@ function why() {
   alert(messages[Math.floor(Math.random() * messages.length)]);
 }
 
-const images = document.querySelectorAll("img");
+export default function setupCallback() {
+  document.addEventListener("DOMContentLoaded", function () {
+    const images = document.querySelectorAll("img");
 
-document.addEventListener("DOMContentLoaded", function () {
-  const images = document.querySelectorAll("img");
-
-  images.forEach((img) => {
-    img.onclick = why;
+    images.forEach((img) => {
+      img.onclick = why;
+    });
   });
-});
+}

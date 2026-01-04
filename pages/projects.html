@@ -9,33 +9,28 @@
             href="../resources/images/icon.png"
             type="image/x-png"
         />
-        <script src="../script.js"></script>
+        <script type="module" src="../main.js"></script>
         <title>My Projects</title>
     </head>
     <body>
-        <ul>
-            <li><h2>cyxigo</h2></li>
-            <li><a href="../index.html">[ About Me ]</a></li>
-            <li><a href="./music.html">[ My Music ]</a></li>
-            <li><a href="./projects.html">[ My Projects ]</a></li>
-            <li><a href="./what.html">[ ??? ]</a></li>
-        </ul>
+        <menu-bar>
+            <h2 class="title">cyxigo</h2>
+            <a is="menu-bar-button" href="../index.html">[ About Me ]</a>
+            <a is="menu-bar-button" href="./music.html">[ My Music ]</a>
+            <a is="menu-bar-button" href="./projects.html">[ My Projects ]</a>
+        </menu-bar>
 
         <div class="content">
             <h1>My Projects</h1>
-            <h2>cykodigo</h2>
-            A little silly discord bot with money system :3
-            <br />
-            <a href="https://github.com/cyxigo/cykodigo">[ Source code ]</a>
-            <a href="https://cyxigo.github.io/cykodigo-io/">[ Website ]</a>
 
-            <br />
-            <br />
-            <br />
-            <br />
-            This cat is doing it again.
-            <br />
-            <img src="../resources/images/question.png" class="img4" />
+            <div class="project">
+                <h2>cykodigo</h2>
+                A little silly discord bot with money system :3
+                <br />
+                <br />
+                <a href="https://github.com/cyxigo/cykodigo">[ Source code ]</a>
+                <a href="https://cyxigo.github.io/cykodigo-io/">[ Website ]</a>
+            </div>
         </div>
     </body>
 </html>

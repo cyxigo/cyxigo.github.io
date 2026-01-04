@@ -9,36 +9,38 @@
             href="../resources/images/icon.png"
             type="image/x-png"
         />
-        <script src="../script.js"></script>
+        <script type="module" src="../main.js"></script>
         <title>My Projects</title>
     </head>
     <body>
-        <ul>
-            <li><h2>cyxigo</h2></li>
-            <li><a href="../index.html">[ About Me ]</a></li>
-            <li><a href="./music.html">[ My Music ]</a></li>
-            <li><a href="./projects.html">[ My Projects ]</a></li>
-            <li><a href="./what.html">[ ??? ]</a></li>
-        </ul>
+        <menu-bar>
+            <h2 class="title">cyxigo</h2>
+            <a is="menu-bar-button" href="../index.html">[ About Me ]</a>
+            <a is="menu-bar-button" href="./music.html">[ My Music ]</a>
+            <a is="menu-bar-button" href="./projects.html">[ My Projects ]</a>
+        </menu-bar>
 
         <div class="content">
             <h1>My Music</h1>
-            <h2>A Battle Full of Hopes</h2>
-            So, about this piece of music: it's one of my first works,
-            <br />
-            it was created for my game as main battle theme, which was
-            <br />
-            never released... but nevermind, i just liked to create
-            <br />
-            music for it, for fun idk, hope you like it!
-            <br />
-            <br />
-            <audio controls>
-                <source
-                    src="../resources/audio/A Battle Full of Hopes.mp3"
-                    type="audio/mpeg"
-                />
-            </audio>
+
+            <div class="project">
+                <h2>A Battle Full of Hopes</h2>
+                So, about this piece of music: it's one of my first works,
+                <br />
+                it was created for my game as main battle theme, which was
+                <br />
+                never released... but nevermind, i just liked to create
+                <br />
+                music for it, for fun idk, hope you like it!
+                <br />
+                <br />
+                <a href="https://www.newgrounds.com/audio/listen/1509378"
+                    >[ Newgrounds ]</a
+                >
+                <a href="https://youtu.be/9gaGogg1E3g?si=fM7wPaeq2RZXwyL-"
+                    >[ YouTube ]</a
+                >
+            </div>
         </div>
     </body>
 </html>

@@ -9,17 +9,18 @@
             href="resources/images/icon.png"
             type="image/x-png"
         />
-        <script src="script.js"></script>
+        <script type="module" src="main.js"></script>
         <title>About me</title>
     </head>
     <body>
-        <ul>
-            <li><h2>cyxigo</h2></li>
-            <li><a href="./index.html">[ About Me ]</a></li>
-            <li><a href="pages/music.html">[ My Music ]</a></li>
-            <li><a href="pages/projects.html">[ My Projects ]</a></li>
-            <li><a href="pages/what.html">[ ??? ]</a></li>
-        </ul>
+        <menu-bar>
+            <h2 class="title">cyxigo</h2>
+            <a is="menu-bar-button" href="./index.html">[ About Me ]</a>
+            <a is="menu-bar-button" href="./pages/music.html">[ My Music ]</a>
+            <a is="menu-bar-button" href="./pages/projects.html"
+                >[ My Projects ]</a
+            >
+        </menu-bar>
 
         <div class="content">
             <h1>About me</h1>
@@ -39,14 +40,22 @@
             Poorly drawn cats jumping:
             <br />
 
-            <img src="resources/images/cyxigo.png" class="img1" />
-            <img src="resources/images/cyxigo.png" class="img2" />
-            <img src="resources/images/cyxigo.png" class="img3" />
+            <img src="resources/images/cyxigo.png" is="jumping-cat-image" />
+            <img
+                src="resources/images/cyxigo.png"
+                is="jumping-cat-image"
+                delay="0.2s"
+            />
+            <img
+                src="resources/images/cyxigo.png"
+                is="jumping-cat-image"
+                delay="0.4s"
+            />
 
             <br />
             Also one... Doing flips I guess.
             <br />
-            <img src="resources/images/question.png" class="img4" />
+            <img src="resources/images/question.png" is="flipping-cat-image" />
 
             <h4>I can forget to update this information sometimes :p</h4>
             <br />
