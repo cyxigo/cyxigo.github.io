@@ -3,7 +3,7 @@ import JumpingCatImage from "./components/cat-images/JumpingCatImage.js";
 import TremblingCatImage from "./components/cat-images/TremblingCatImage.js";
 import MenuBar from "./components/MenuBar.js";
 import MenuBarButton from "./components/MenuBarButton.js";
-import setupWhyCallback from "./components/why.js";
+import setupWhyCallback from "./components/Why.js";
 
 customElements.define("flipping-cat-image", FlippingCatImage, {
   extends: "img",
