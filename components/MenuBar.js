@@ -47,6 +47,7 @@ export default class MenuBar extends HTMLElement {
     toggleButton.style.color = "#ffffff";
     toggleButton.style.backgroundColor = "#9c9c9cff";
     toggleButton.style.transition = "0.2s ease-in-out";
+    toggleButton.style.fontSize = "20px";
 
     toggleButton.onclick = () => {
       this.isMenuVisible = !this.isMenuVisible;
