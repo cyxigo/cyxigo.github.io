@@ -1,14 +1,23 @@
 body {
     user-select: none;
     background-color: #bcbcbc;
+    background-image: url("resources/images/bg.png");
+    background-repeat: repeat;
+    background-size: 15vi;
     color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Brush Script MT", cursive;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
+}
+
+button {
+    border-width: 0;
+    color: white;
+    font-family: "Brush Script MT", cursive;
 }
 
 a {
-    color: white;
+    color: #00d5ff;
     text-decoration: none;
 }
 
@@ -23,27 +32,22 @@ img {
     border-radius: 10px;
 }
 
-footer {
-    margin-top: 10px;
-    padding: 10px;
-    color: #000000;
-}
-
-.social {
-    transition: 0.2s ease-in-out;
-}
-
-.social:hover {
-    color: #000000;
-}
-
 .content {
     display: inline-block;
     width: 100%;
     padding: 0px 16px 16px;
     margin-top: 10px;
-    background-color: #afafaf;
+    background-color: #afafafe6;
     box-sizing: border-box;
+}
+
+.social {
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.social:hover {
+    color: #000000;
 }
 
 .project {
