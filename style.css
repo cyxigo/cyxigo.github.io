@@ -5,7 +5,7 @@ body {
     background-repeat: repeat;
     background-size: 15vi;
     color: white;
-    font-family: "Brush Script MT", cursive;
+    font-family: "Segoe Print";
     margin: 0;
     padding: 10px;
 }
@@ -13,7 +13,7 @@ body {
 button {
     border-width: 0;
     color: white;
-    font-family: "Brush Script MT", cursive;
+    font-family: "Segoe Print";
 }
 
 a {
