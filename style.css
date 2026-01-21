@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "GrixelAcme9Regular";
+    src: url("resources/fonts/acme9_regular.ttf");
+}
+
 body {
     user-select: none;
     background-color: #bcbcbc;
@@ -5,7 +10,7 @@ body {
     background-repeat: repeat;
     background-size: 15vi;
     color: white;
-    font-family: "Arial";
+    font-family: "GrixelAcme9Regular";
     margin: 0;
     padding: 10px;
 }
@@ -13,7 +18,7 @@ body {
 button {
     border-width: 0;
     color: white;
-    font-family: "Arial";
+    font-family: "GrixelAcme9Regular";
 }
 
 a {
