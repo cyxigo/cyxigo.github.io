@@ -3,6 +3,10 @@
     src: url("resources/fonts/acme9_regular.ttf");
 }
 
+:root {
+    font-size: 70%;
+}
+
 body {
     user-select: none;
     background-color: #bcbcbc;

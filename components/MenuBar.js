@@ -70,7 +70,7 @@ export default class MenuBar extends HTMLElement {
       button.style.transition = "0.2s ease-in-out";
       button.style.padding = "6px 16px";
       button.style.textAlign = "left";
-      button.style.fontSize = "16px";
+      button.style.fontSize = "12px";
 
       button.onmouseenter = () => {
         button.style.backgroundColor = "#474747ff";
@@ -97,6 +97,7 @@ export default class MenuBar extends HTMLElement {
     toggleButton.style.backgroundColor = "#9c9c9cff";
     toggleButton.style.transition = "0.2s ease-in-out";
     toggleButton.style.fontSize = "22px";
+    toggleButton.style.fontFamily = "Arial";
 
     toggleButton.onclick = () => {
       this.isMenuVisible = !this.isMenuVisible;
