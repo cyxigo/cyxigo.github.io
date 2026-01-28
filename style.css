@@ -139,8 +139,20 @@ img {
     scale: 110%;
 }
 
+.section h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .section {
-    padding: 14px 16px;
+    padding-left: 16px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
     background-color: #9c9c9cff;
     border-radius: 6px;
+}
+
+.section:last-of-type {
+    margin-bottom: 0;
 }
