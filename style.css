@@ -126,15 +126,6 @@ img {
     border-radius: 6px;
 }
 
-.social {
-    color: white;
-    transition: 0.2s ease-in-out;
-}
-
-.social:hover {
-    color: #000000;
-}
-
 .track-cover {
     display: inline-block;
     margin-right: 10px;
