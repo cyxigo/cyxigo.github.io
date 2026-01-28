@@ -73,20 +73,7 @@ br {
 
 button {
     border-width: 0px;
-    color: rgb(130, 130, 130);
-    transition: 0.2s ease-in-out;
     user-select: none;
-}
-
-button:not(menu-bar button) {
-    border-radius: 6px;
-    color: black;
-    padding: 6px;
-}
-
-button:not(menu-bar button):hover {
-    color: white;
-    background-color: #505050;
 }
 
 menu-bar {
@@ -111,7 +98,7 @@ a:not(.social):hover {
 img {
     max-width: 125px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 5px;
     border-radius: 6px;
     user-select: none;
 }
@@ -136,7 +123,7 @@ img {
 }
 
 .track-cover img:hover {
-    scale: 110%;
+    scale: 105%;
 }
 
 .section h2 {
@@ -155,4 +142,14 @@ img {
 
 .section:last-of-type {
     margin-bottom: 0;
+}
+
+.album-title {
+    background-position: center;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 1%;
+    font-size: 300%;
+    border-radius: 6px;
+    margin-bottom: 0dvh;
 }
