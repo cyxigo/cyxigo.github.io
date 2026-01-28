@@ -15,9 +15,6 @@ export default class MenuBar extends HTMLElement {
   }
 
   setupStyles() {
-    this.style.display = "grid";
-    this.style.backgroundColor = "#767676";
-
     Array.from(this.children).forEach((child) => {
       child.style.margin = "0";
       child.style.padding = "14px 16px";
@@ -98,6 +95,8 @@ export default class MenuBar extends HTMLElement {
     toggleButton.style.transition = "0.2s ease-in-out";
     toggleButton.style.fontSize = "22px";
     toggleButton.style.fontFamily = "Arial";
+    toggleButton.style.borderBottomLeftRadius = "6px";
+    toggleButton.style.borderBottomRightRadius = "6px";
 
     toggleButton.onclick = () => {
       this.isMenuVisible = !this.isMenuVisible;

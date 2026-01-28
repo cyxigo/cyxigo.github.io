@@ -27,7 +27,9 @@ export default function setupCallback() {
     const images = document.querySelectorAll("img");
 
     images.forEach((img) => {
-      img.onclick = why;
+      if (!img.classList.contains("no-why")) {
+        img.onclick = why;
+      }
     });
   });
 }
