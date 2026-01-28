@@ -132,10 +132,10 @@ img {
 }
 
 .section {
-    padding-left: 16px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-bottom: 1%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
     background-color: #9c9c9cff;
     border-radius: 6px;
 }
@@ -148,7 +148,7 @@ img {
     background-position: center;
     padding: 10px;
     font-weight: bold;
-    margin-top: 1%;
+    margin-top: 2%;
     font-size: 300%;
     border-radius: 6px;
     margin-bottom: 0dvh;
