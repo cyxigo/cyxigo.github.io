@@ -113,6 +113,11 @@ img {
     border-radius: 6px;
 }
 
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .track-cover {
     display: inline-block;
     margin-right: 0.5vw;
@@ -152,5 +157,5 @@ img {
     margin-top: 2vh;
     font-size: 300%;
     border-radius: 6px;
-    margin-bottom: 0dvh;
+    margin-bottom: 0;
 }
