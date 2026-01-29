@@ -31,29 +31,22 @@ export default class MenuBar extends HTMLElement {
 
   createButtons() {
     const buttons = [];
-    const isInPagesFolder = window.location.pathname.includes("/pages/");
+    const changeLocation = (location) => {
+      document.location = "/" + location;
+    };
 
     const aboutMe = document.createElement("button");
     aboutMe.innerText = "About Me";
-    aboutMe.onclick = () => {
-      document.location = isInPagesFolder ? "../" : "./";
-    };
+    aboutMe.onclick = () => changeLocation("");
 
     const myMusic = document.createElement("button");
     myMusic.innerText = "My Music";
-    myMusic.onclick = () => {
-      document.location = isInPagesFolder
-        ? "./music"
-        : "./pages/music";
-    };
+
+    myMusic.onclick = () => changeLocation("music");
 
     const myProjects = document.createElement("button");
     myProjects.innerText = "My Projects";
-    myProjects.onclick = () => {
-      document.location = isInPagesFolder
-        ? "./projects"
-        : "./pages/projects";
-    };
+    myProjects.onclick = () => changeLocation("projects");
 
     buttons.push(aboutMe, myMusic, myProjects);
     this.buttons = buttons;
