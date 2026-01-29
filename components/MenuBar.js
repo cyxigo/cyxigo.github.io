@@ -36,23 +36,23 @@ export default class MenuBar extends HTMLElement {
     const aboutMe = document.createElement("button");
     aboutMe.innerText = "About Me";
     aboutMe.onclick = () => {
-      document.location = isInPagesFolder ? "../index.html" : "./index.html";
+      document.location = isInPagesFolder ? "../" : "./";
     };
 
     const myMusic = document.createElement("button");
     myMusic.innerText = "My Music";
     myMusic.onclick = () => {
       document.location = isInPagesFolder
-        ? "./music.html"
-        : "./pages/music.html";
+        ? "./music"
+        : "./pages/music";
     };
 
     const myProjects = document.createElement("button");
     myProjects.innerText = "My Projects";
     myProjects.onclick = () => {
       document.location = isInPagesFolder
-        ? "./projects.html"
-        : "./pages/projects.html";
+        ? "./projects"
+        : "./pages/projects";
     };
 
     buttons.push(aboutMe, myMusic, myProjects);
