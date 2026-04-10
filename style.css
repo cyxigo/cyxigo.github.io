@@ -119,6 +119,24 @@ img {
     user-select: none;
 }
 
+main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    max-width: 30rem;
+    margin-bottom: 1%;
+}
+
+main-footer p {
+    margin: 1%;
+    flex-basis: 100%;
+    opacity: 0.2;
+}
+
 .content {
     background-color: #000000a7;
     padding: 1rem;
@@ -151,8 +169,10 @@ img {
 
 .link-container {
     display: inline-flex;
+    justify-content: center;
     align-items: center;
     gap: 0.2rem;
+    flex: auto;
 }
 
 .link-container img {
