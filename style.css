@@ -77,6 +77,7 @@ menu-bar {
     justify-content: flex-start;
     background-color: #282828;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 menu-bar button {
@@ -107,14 +108,13 @@ a {
     text-decoration: none;
 }
 
-a:not(.social):hover {
+a:hover {
     text-decoration: underline;
 }
 
 img {
     max-width: 125px;
     height: auto;
-    margin-top: 5px;
     border-radius: 8px;
     user-select: none;
 }
@@ -141,6 +141,7 @@ img {
     margin-bottom: 1rem;
     background-color: #ffffff2b;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .cat-carrier img {
@@ -148,9 +149,16 @@ img {
     min-width: 0;
 }
 
-.links {
-    display: flex;
-    flex-wrap: wrap;
+.link-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.link-container img {
+    height: 1em;
+    width: auto;
+    border-radius: 0;
 }
 
 .track-cover {
