@@ -133,12 +133,19 @@ img {
 }
 
 .cat-carrier {
+    display: inline-flex;
+    max-width: 100%;
     border-radius: 8px;
-    display: inline-block;
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: #ffffff2b;
+    box-sizing: border-box;
+}
+
+.cat-carrier img {
+    flex: auto;
+    min-width: 0;
 }
 
 .links {
