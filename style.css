@@ -1,3 +1,6 @@
+/*
+    Animations
+*/
 @keyframes jump {
     0% {
         content: url("resources/images/cats/cyxigo.png");
@@ -51,6 +54,9 @@
     }
 }
 
+/*
+    Base styles
+*/
 :root {
     font-family:
         system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
@@ -71,6 +77,29 @@ button {
     border-width: 0px;
 }
 
+h1 {
+    margin: 0;
+}
+
+a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 125px;
+    height: auto;
+    border-radius: 8px;
+    user-select: none;
+}
+
+/*
+    Custom elements
+*/
 menu-bar {
     display: flex;
     width: 100%;
@@ -99,26 +128,6 @@ menu-bar button:hover {
     cursor: pointer;
 }
 
-h1 {
-    margin: 0;
-}
-
-a {
-    color: aquamarine;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-img {
-    max-width: 125px;
-    height: auto;
-    border-radius: 8px;
-    user-select: none;
-}
-
 main-footer {
     display: flex;
     flex-wrap: wrap;
@@ -137,6 +146,9 @@ main-footer p {
     opacity: 0.2;
 }
 
+/*
+    Classes
+*/
 .content {
     background-color: #000000a7;
     padding: 1rem;
