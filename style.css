@@ -112,15 +112,14 @@ menu-bar {
 menu-bar button {
     transition: 0.1s ease-in-out;
     flex: 1;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding: 0.5rem 1rem;
     border-bottom: 0.2rem solid;
     background-color: #000000;
     color: white;
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
     min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 menu-bar button:hover {
