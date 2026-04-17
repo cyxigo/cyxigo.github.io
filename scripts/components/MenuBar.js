@@ -23,8 +23,14 @@ export default class MenuBar extends HTMLElement {
     projects.style.borderBottomColor = "#ff5757";
     projects.onclick = () => changeLocation("projects");
 
+    const contact = document.createElement("button");
+    contact.innerText = "Contact";
+    contact.style.borderBottomColor = "#ae57ff";
+    contact.onclick = () => changeLocation("contact");
+
     this.appendChild(about);
     this.appendChild(music);
     this.appendChild(projects);
+    this.appendChild(contact);
   }
 }
