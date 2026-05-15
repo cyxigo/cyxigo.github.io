@@ -3,17 +3,14 @@
 */
 @keyframes jump {
     0% {
-        content: url("resources/images/cats/cyxigo.png");
         transform: translateY(0);
     }
 
     50% {
-        content: url("resources/images/cats/cute.png");
         transform: translateY(-50px);
     }
 
     100% {
-        content: url("resources/images/cats/cyxigo.png");
         transform: translateY(0);
     }
 }
